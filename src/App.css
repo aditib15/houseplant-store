@@ -1,0 +1,105 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #1a639e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.landing {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.landing h1 {
+  font-size: 2.5em;
+}
+
+.landing p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.landing button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.landing button:hover {
+  background-color: #218838;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.plant-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 280px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Shopping Cart */
+.shopping-cart {
+  padding: 20px;
+}
+
+.shopping-cart h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.shopping-cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shopping-cart li {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e53935;
+}
