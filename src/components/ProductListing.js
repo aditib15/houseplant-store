@@ -1,13 +1,11 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../redux/cartSlice';
-
 const products = [
-  { id: 1, name: 'Snake Plant', price: 15, thumbnail: '/images/snakeplant.png' },
-  { id: 2, name: 'Aloe Vera', price: 12, thumbnail: '/images/aloevera.png' },
-  { id: 3, name: 'Peace Lily', price: 18, thumbnail: '/images/lily.png' },
+  { id: 1, name: 'Snake Plant', price: 15, thumbnail: `${process.env.PUBLIC_URL}/images/snakeplant.png` },
+  { id: 2, name: 'Aloe Vera', price: 12, thumbnail: `${process.env.PUBLIC_URL}/images/aloevera.png` },
+  { id: 3, name: 'Peace Lily', price: 18, thumbnail: `${process.env.PUBLIC_URL}/images/lily.png` },
 ];
-
 const ProductListing = () => {
   const dispatch = useDispatch();
 
