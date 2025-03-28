@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/houseplant-store/static/css/main.27836d84.css",
+    "main.js": "/houseplant-store/static/js/main.f94226a1.js",
+    "index.html": "/houseplant-store/index.html",
+    "main.27836d84.css.map": "/houseplant-store/static/css/main.27836d84.css.map",
+    "main.f94226a1.js.map": "/houseplant-store/static/js/main.f94226a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27836d84.css",
+    "static/js/main.f94226a1.js"
+  ]
+}
