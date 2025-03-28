@@ -2,7 +2,8 @@
   "name": "houseplant-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aditib15.github.io/houseplant-store/",
+  "homepage": "https://aditib15.github.io/houseplant-store/"
+,
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
     "@testing-library/dom": "^10.4.0",
